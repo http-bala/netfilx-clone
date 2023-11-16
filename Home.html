@@ -11,7 +11,7 @@
 <body>
     <!--banner section  -->
     <section class="w[100%] h-[100vh] bg-[url(./assets/background.jpg)] bg-center bg-cover">
-        <div class="w-[100%] h-[100vh] bg-[rgba(0,0,0,0.5)] pt-[25px]">
+        <div class="w-[100%] h-[100vh] bg-[rgba(0,0,0,0.5)] pt-[35px]">
             <header class="max-w-[1170px] mx-auto ">
                 <div class="grid sm:grid-cols-2 grid-cols[30%_auto] px-[10px] items-center">
                     <figure>
@@ -58,22 +58,85 @@
     </section>
     <!--banner section ends  -->
     <!--2 section start  -->
-    <section class="w-[100%] bg-[black] border-t-[8px] border-t-[#605d5d] sm:py[100px] py-[50px]">
+    <section class="w-[100%] bg-[black] border-t-[8px] border-t-[#605d5d] sm:py-[50px] py-[50px]">
         <div class="max-w-[1170] mx-auto px-[10px]">
-            <div class="grid sm:grid-cols-2 grid-cols-1">
-                <div class=" text-white ">
+            <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+                <div class=" text-white mx-auto ">
                     <h2 class="text-[50px] font-bold ">Enjoy on your TV</h2>
                     <p class="text-[20px] pt-[30px]">Watch on smart TVs, PlayStation, Xbox,<br> Chromecast, Apple TV,
                         Blu-ray players <br>and more.
                     </p>
                 </div>
-                <figure>
-
+                <figure class="relative">
+                    <video class="absolute bottom-[20%] left-[10%] w-[80%] z-[1]" autoplay>
+                        <source src="./assets/video-tv-in-0819.m4v" type="" controls>
+                    </video>
+                    <img src="./assets/tv.png" alt="" srcset="" class="relative z-[2]" >
                 </figure>
             </div>
         </div>
     </section>
     <!--2 section ends  -->
+    <!--3 section ends  -->
+    <section class="w-[100%] bg-[black] border-t-[8px] border-t-[#605d5d] sm:py-[90px] py-[50px]">
+        <div class="max-w-[1170] mx-auto px-[10px]">
+            <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+                <figure class="relative sm:order-1 order-2">
+                    <img src="./assets/mobile-0819.jpg" alt="" srcset="" class="relative sm:w-[70%] mx-auto" >
+                    <div class="sm:w-[50%]  w-[80%] absolute sm:left-[20%] left-[10%] border-[1px] bordder-[#ccc] bottom-[0px] grid grid-cols-[80%_auto] bg-[black] rounded-[5px]">
+                        <div class="grid grid-cols-[20%_auto] p-[15px] gap-[12px] ">
+                            <img src="./assets/boxshot.png" alt="" srcset="">
+                            <div class="text-white ">
+                                <h3 class="font-bold"> Stranger Things</h3>
+                                    <p class="text-blue-600">Downloading...</p>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+                <div class=" text-white mx-auto px-4 sm:order-2 order-1 ">
+                    <h2 class="text-[50px] font-bold leading-[55px]">Download your shows <br>to watch offline</h2>
+                    <p class="text-[25px] pt-[30px]">Save your favourites easily and always have something to watch.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--3 section ends  -->
+    <!--4 section ends  -->
+    <section class="w-[100%] bg-[black] border-t-[8px] border-t-[#605d5d] sm:py-[50px] py-[50px]">
+        <div class="max-w-[1170] mx-auto px-[10px]">
+            <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+                <div class=" text-white mx-auto ">
+                    <h2 class="text-[50px] font-bold ">Watch everywhere</h2>
+                    <p class="text-[20px] pt-[30px]">Stream unlimited movies and TV shows on <br> your phone, tablet, laptop, and TV.
+                    </p>
+                </div>
+                <figure class="relative">
+                    <video class="absolute bottom-[44%] left-[17%] w-[63%] z-[1]" autoplay>
+                        <source src="./assets/video-devices-in.m4v" type="" controls>
+                    </video>
+                    <img src="./assets/device-pile-in.png" alt="" srcset="" class="relative z-[2]" >
+                </figure>
+            </div>
+        </div>
+    </section>
+    <!--4 section ends  -->
+    <!--5 section ends  -->
+    <section class="w-[100%] bg-[black] border-t-[8px] border-t-[#605d5d] sm:py-[90px] py-[50px]">
+        <div class="max-w-[1170] mx-auto px-[10px]">
+            <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+                <figure class="relative sm:order-1 order-2">
+                    <img src="./assets/background1.png" alt="" srcset="" class="relative sm:w-[70%] mx-auto" >
+                </figure>
+                <div class=" text-white mx-auto px-4 sm:order-2 order-1 ">
+                    <h2 class="text-[50px] font-bold leading-[55px]">Create profiles for <br> kids</h2>
+                    <p class="text-[25px] pt-[30px]">Send children on adventures with their favourite characters in a space made just for them—free with your membership.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--5 section ends  -->
 </body>
 
 </html>
